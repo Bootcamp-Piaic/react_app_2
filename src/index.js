@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Bpp from './Helo';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div> 
+  
+    <App name='Awais Mansha' age={21}/>
+    <Bpp></Bpp>
+  </div>,
   document.getElementById('root')
 );
 
