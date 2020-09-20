@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Bpp from './Helo';
+import Room from './Room'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div> 
-  
-    <App name='Awais Mansha' age={21}/>
-    <Bpp></Bpp>
+    <Room></Room>
   </div>,
   document.getElementById('root')
 );
