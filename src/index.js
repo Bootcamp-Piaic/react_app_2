@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Bpp from './Helo';
 import Room from './Room'
 import * as serviceWorker from './serviceWorker';
 
